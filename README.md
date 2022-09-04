@@ -28,7 +28,10 @@ service層・・・DB、API等の外部との接続先
 
 https://baigie.me/engineerblog/?p=348
 
-## 環境構築について
+こっちの方が好きかも)  
+https://qiita.com/Sotq_17/items/7c7ab9880597336b3ee5
+
+## 環境構築
 ### プロジェクトの作成
 
 npx create-react-app {作成するプロジェクト名}  
@@ -48,3 +51,6 @@ npm install react-router-dom
 
 参考記事）  
 https://qiita.com/YSasago/items/f00333b60a2b01be4bb7
+
+https://zenn.dev/nakashi94/articles/97408c37781a17
+

@@ -9,5 +9,4 @@ const SelectPosts = () => {
 
 };
 
-
 export default SelectPosts
