@@ -10,19 +10,22 @@ import SelectPosts from './features/select-posts/SelectPosts';
 // ルーティングの実装
 const App: FC = () => {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route exact path="posts/id/edit">
-          <EditPosts />
-        </Route>
-        <Route exact path="posts/id/create">
-          <CreatePosts />
-        </Route>
-        <Route exact path="/posts">
-          <SelectPosts />
-        </Route>
-      </Switch>
-    </BrowserRouter>
+    // ルーティング
+    // <BrowserRouter>
+    //   <Switch>
+    //     <Route exact path="posts/id/edit">
+    //       <EditPosts />
+    //     </Route>
+    //     <Route exact path="posts/id/create">
+    //       <CreatePosts />
+    //     </Route>
+    //     <Route exact path="/posts">
+    //       <SelectPosts />
+    //     </Route>
+    //   </Switch>
+    // </BrowserRouter>
+    
+
   )
 }
 

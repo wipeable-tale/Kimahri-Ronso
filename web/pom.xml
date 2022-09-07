@@ -8,11 +8,11 @@
 		<version>2.7.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.sylix</groupId>
-	<artifactId>post-template-web</artifactId>
+	<groupId>com.Sylix</groupId>
+	<artifactId>web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>post-template-web</name>
-	<description>Demo project for Spring Boot</description>
+	<name>web</name>
+	<description>Posts ApI project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
 		<kotlin.version>1.6.21</kotlin.version>

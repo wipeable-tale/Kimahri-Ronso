@@ -1,11 +1,11 @@
-package com.sylix.posttemplateweb
+package com.Sylix.web
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class PostTemplateWebApplication
+class WebApplication
 
 fun main(args: Array<String>) {
-	runApplication<PostTemplateWebApplication>(*args)
+	runApplication<WebApplication>(*args)
 }
