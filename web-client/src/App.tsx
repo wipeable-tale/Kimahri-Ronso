@@ -8,25 +8,20 @@ import SelectPosts from './features/select-posts/SelectPosts';
 
 
 // ルーティングの実装
-const App: FC = () => {
+export default function App(){
   return (
-    // ルーティング
-    // <BrowserRouter>
-    //   <Switch>
-    //     <Route exact path="posts/id/edit">
-    //       <EditPosts />
-    //     </Route>
-    //     <Route exact path="posts/id/create">
-    //       <CreatePosts />
-    //     </Route>
-    //     <Route exact path="/posts">
-    //       <SelectPosts />
-    //     </Route>
-    //   </Switch>
-    // </BrowserRouter>
-    
-
+    <BrowserRouter>
+      <Switch>
+      <Route exact path="/">
+          <SelectPosts />
+        </Route>
+        <Route exact path="/posts/id/edit">
+          <EditPosts />
+        </Route>
+        <Route exact path="/posts/id/create">
+          <CreatePosts />
+        </Route>
+      </Switch>
+    </BrowserRouter>
   )
 }
-
-export default App;
